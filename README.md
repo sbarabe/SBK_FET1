@@ -1,5 +1,7 @@
 # SBK_FET1 | MOSFET Module
 
+<h3 align="center">SBK_NFET1 — N-Channel Module</h3>
+
 <p align="center">
   <img src="SBK_NFET1/docs/images/front.png" alt="Front" height="340">
   &nbsp;&nbsp;&nbsp;
@@ -10,6 +12,8 @@
   <b>NFET Front</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>NFET Back</b>
 </p>
+
+<h3 align="center">SBK_PFET1 — P-Channel Module</h3>
 
 <p align="center">
   <img src="SBK_PFET1/docs/images/front.png" alt="Front" height="290">
@@ -101,10 +105,10 @@ https://www.tindie.com/stores/smartbuildskits/
 
 ## Related Projects
 
-- **SBK_NFET1** — N-Channel MOSFET Module
-- **SBK_PFET1** — P-Channel MOSFET Module
-- **SBK_RP1** — Reverse Polarity Protection Module
-- **MémoBot** — Educational memory game demonstrating the use of SBK hardware modules
+- [**SBK_NFET1**](SBK_NFET1) — N-Channel MOSFET Module
+- [**SBK_PFET1**](SBK_PFET1) — P-Channel MOSFET Module
+- [**SBK_RP1**](https://github.com/sbarabe/SBK_RP1) — Reverse Polarity Protection Module
+- [**MémoBot**](https://github.com/sbarabe/MemoBot) — Educational memory game using SBK hardware modules
 
 ---
 
