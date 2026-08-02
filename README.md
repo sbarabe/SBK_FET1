@@ -1,4 +1,4 @@
-# SBK_NFET1
+# SBK_NFET1 | N-Channel MOSFET Module
 
 <p align="center">
   <img src="docs/images/front.png" alt="Front" height="340">
@@ -13,11 +13,13 @@
 
 ---
 
-## Open-source soft power switch module for learning and embedded electronics projects.
+## Open-source N-Channel FET module for learning and embedded electronics projects.
 
-SBK_SP1 is a compact, reusable hardware module for battery-powered embedded systems. It allows a momentary push button and a microcontroller GPIO to control power for low-voltage electronic loads while drawing only a few microamps in the OFF state.
+SBK_NFET1 is a compact educational N-channel MOSFET module designed for breadboards, prototyping, and learning electronic switching circuits.
 
-Designed for breadboards, prototypes, and educational projects, SBK_SP1 provides an easy way to add professional soft power management to Arduino, ESP32, RP2040, ATtiny, STM32, and similar microcontroller-based systems.
+The module is built around the AO3400A logic-level MOSFET and provides clearly labeled Drain, Gate, and Source connections. An optional output voltage indicator LED can be enabled by connecting the GND pin or disabled by leaving it unconnected.
+
+Typical applications include LED control, relays, solenoids, DC motors, and other low-side switching circuits.
 
 ---
 
