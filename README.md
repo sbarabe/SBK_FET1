@@ -1,14 +1,25 @@
 # SBK_FET1 | MOSFET Module
 
 <p align="center">
-  <img src="docs/images/front.png" alt="Front" height="340">
+  <img src="SBK_NFET1/docs/images/front.png" alt="Front" height="340">
   &nbsp;&nbsp;&nbsp;
-  <img src="docs/images/back.png" alt="Back" height="340">
+  <img src="SBK_NFET1/docs/images/back.png" alt="Back" height="340">
 </p>
 
 <p align="center">
-  <b>Front</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Back</b>
+  <b>NFET Front</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>NFET Back</b>
+</p>
+
+<p align="center">
+  <img src="SBK_PFET1/docs/images/front.png" alt="Front" height="340">
+  &nbsp;&nbsp;&nbsp;
+  <img src="SBK_PFET1/docs/images/back.png" alt="Back" height="340">
+</p>
+
+<p align="center">
+  <b>PFET Front</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>PFET Back</b>
 </p>
 
 ---
