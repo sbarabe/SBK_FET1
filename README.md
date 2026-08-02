@@ -53,6 +53,8 @@ The module is available in both **N-channel** and **P-channel** versions and pro
 
 ## Pinout
 
+### SBK_NFET1 Pinout
+
 | Pin | Description |
 |------|-------------|
 | **DR** | Drain |
@@ -60,7 +62,18 @@ The module is available in both **N-channel** and **P-channel** versions and pro
 | **SR** | Source |
 | **GND** | Optional ground connection for the indicator LED |
 
-> The GND pin is only required for the indicator LED. The MOSFET operates normally without it.
+> **Note:** The GND pin is only required for the indicator LED. The MOSFET operates normally without it.
+
+### SBK_PFET1 Pinout
+
+| Pin | Description |
+|------|-------------|
+| **SR** | Source |
+| **GT** | Gate |
+| **DR** | Drain |
+| **GND** | Optional ground connection for the indicator LED |
+
+> **Note:** The GND pin is only required for the indicator LED. The MOSFET operates normally without it.
 
 ---
 
