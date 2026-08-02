@@ -1,4 +1,4 @@
-# SBK_NFET1 | N-Channel MOSFET Module
+# SBK_FET1 | MOSFET Module
 
 <p align="center">
   <img src="docs/images/front.png" alt="Front" height="340">
@@ -13,26 +13,26 @@
 
 ---
 
-## Open-source N-Channel FET module for learning and embedded electronics projects.
+## Open-source MOSFET module for learning and embedded electronics projects.
 
-SBK_NFET1 is a compact educational N-channel MOSFET module designed for breadboards, prototyping, and learning electronic switching circuits.
+SBK_FET1 is a compact educational MOSFET module designed for breadboards, prototyping, and learning electronic switching circuits.
 
-The module is built around the AO3400A logic-level MOSFET and provides clearly labeled Drain, Gate, and Source connections. An optional output voltage indicator LED can be enabled by connecting the GND pin or disabled by leaving it unconnected.
-
-Typical applications include LED control, relays, solenoids, DC motors, and other low-side switching circuits.
+The module is available in both **N-channel** and **P-channel** versions and provides clearly labeled **Drain**, **Gate**, and **Source** connections. An optional output voltage indicator LED can be enabled by connecting the **GND** pin or disabled by leaving it unconnected.
 
 ---
 
 ## Features
 
-- Input voltage: **2–12 VDC**
-- Load current: **up to 2 A**
-- High-side **P-channel MOSFET** switching
-- Microcontroller-controlled soft power latching
-- Ultra-low off-state current
-- Power input and output status LEDs
+- Available in **N-channel** and **P-channel** versions
+- Logic-level MOSFET
+- Operating voltage: **2–12 VDC**
+- Recommended continuous load: **up to 2 A**
+- Clearly labeled Drain, Gate, and Source terminals
+- Silkscreen MOSFET symbol showing the intrinsic body diode
+- Optional output voltage indicator LED
+- LED can be disabled by leaving the GND pin unconnected
 - Breadboard-friendly 2.54 mm pin header
-- Optimized for low-cost assembly using JLCPCB Basic components
+- Compact educational module for learning MOSFET operation and switching circuits
 
 ---
 
@@ -40,65 +40,36 @@ Typical applications include LED control, relays, solenoids, DC motors, and othe
 
 | Pin | Description |
 |------|-------------|
-| **VIN** | Power input (2–12 VDC) |
-| **GND** | Ground |
-| **VOUT** | Switched power output |
-| **CTRL** | Control input (0–VIN). Drive HIGH to enable the output. |
+| **DR** | Drain |
+| **GT** | Gate |
+| **SR** | Source |
+| **GND** | Optional ground connection for the indicator LED |
 
----
-
-## Typical Application
-
-```text
-Battery
-   │
-SBK_RP1 (optional)
-   │
-SBK_SP1
-   │
-Embedded System
-```
-
-A momentary push button is connected to the **CTRL** input to power the system. Once the microcontroller has started, it drives **CTRL** HIGH to keep the module enabled. When the application is ready to shut down, the microcontroller releases the **CTRL** pin, automatically removing power from the system.
-
----
-
-## Operation
-
-1. The user presses the push button.
-2. The **CTRL** input goes HIGH.
-3. SBK_SP1 enables the power output (**VOUT**).
-4. The microcontroller boots.
-5. The microcontroller drives **CTRL** HIGH to maintain power after the button is released.
-6. When shutdown is requested, the microcontroller drives **CTRL** LOW (or configures it as a high-impedance input).
-7. SBK_SP1 disconnects power from the load.
+> The GND pin is only required for the indicator LED. The MOSFET operates normally without it.
 
 ---
 
 ## Applications
 
-### Microcontroller platforms
-
-- Arduino
-- ESP32
-- RP2040
-- ATtiny
-- STM32
-
-### Example applications
-
-- Portable instruments
-- Battery-powered sensors
+- LED control
+- Relays
+- Solenoids
+- DC motors
+- Low-side switching (N-channel)
+- High-side switching (P-channel)
+- Logic-controlled loads
 - Educational electronics projects
-- Custom embedded devices
-  
+- Breadboard prototyping
+
 ---
 
-## Notes
+## Important Notes
 
-- Designed for low-voltage embedded electronics.
-- Inductive loads require an external flyback diode or equivalent protection.
-- High-capacitance loads may require inrush-current limiting.
+- The operating voltage (2–12 V) refers to the switched load voltage.
+- The recommended 2 A load rating is based on the module's PCB size and thermal considerations.
+- The indicator LED shows that the monitored output node is energized. It does **not** indicate whether the MOSFET is ON or OFF.
+- An external flyback diode is required when driving inductive loads such as relays, solenoids, and DC motors.
+- Connect the flyback diode across the load, **not** across the MOSFET.
 
 ---
 
@@ -108,16 +79,21 @@ This project is fully open-source hardware. You can:
 
 - Build your own board using the provided KiCad design files.
 - Modify the design to suit your application.
-- *(Coming soon)* Purchase a fully assembled board from my Tindie store if you prefer to start experimenting immediately.
+- Manufacture your own boards.
+- *(Coming soon)* Purchase fully assembled modules from my Tindie store.
 
-👉 [**SBK Tindie Store**](https://www.tindie.com/stores/smartbuildskits/)
+👉 **SBK Tindie Store**
+
+https://www.tindie.com/stores/smartbuildskits/
 
 ---
 
 ## Related Projects
 
-- [**SBK_RP1**](https://github.com/sbarabe/SBK_RP1) – Reverse Polarity Protection Module
-- [**MémoBot**](https://github.com/sbarabe/MemoBot) – Educational memory game built using SBK_SP1 and SBK_RP1
+- **SBK_NFET1** — N-Channel MOSFET Module
+- **SBK_PFET1** — P-Channel MOSFET Module
+- **SBK_RP1** — Reverse Polarity Protection Module
+- **MémoBot** — Educational memory game demonstrating the use of SBK hardware modules
 
 ---
 
@@ -125,12 +101,12 @@ This project is fully open-source hardware. You can:
 
 This project is released as open-source hardware under the **CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P v2)**.
 
-You are free to study, modify, manufacture, and distribute this design, provided the terms of the license are respected.
+You are free to study, modify, manufacture, and distribute this design under the terms of the license.
 
-See the [LICENSE](LICENSE) file for the full license text.
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Design Files
 
-This project was designed using **KiCad 10**.
+Designed using **KiCad 10**.
