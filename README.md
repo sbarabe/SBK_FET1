@@ -145,6 +145,7 @@ Thank you for supporting open-source educational hardware.
 
 - [**SBK_NFET1**](SBK_NFET1) — N-Channel MOSFET Module
 - [**SBK_PFET1**](SBK_PFET1) — P-Channel MOSFET Module
+- [**SBK_SP1**](https://github.com/sbarabe/SBK_SP1) — Soft Power Switch Module
 - [**SBK_RP1**](https://github.com/sbarabe/SBK_RP1) — Reverse Polarity Protection Module
 - [**MémoBot**](https://github.com/sbarabe/MemoBot) — Educational memory game using SBK hardware modules
 
