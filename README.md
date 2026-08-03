@@ -105,14 +105,19 @@ The module is available in both **N-channel** and **P-channel** versions and pro
 
 This project is fully open-source hardware. You can:
 
-- Build your own board using the provided KiCad design files.
+- Build your own module using the provided KiCad design files.
 - Modify the design to suit your application.
 - Manufacture your own boards.
-- *(Coming soon)* Purchase fully assembled modules from my Tindie store.
 
-👉 **SBK Tindie Store**
+### Assembled Modules
 
-https://www.tindie.com/stores/smartbuildskits/
+If you would prefer fully assembled modules rather than assembling the PCBs yourself, I can provide professionally assembled modules in small batches on demand.
+
+For availability, pricing, or custom quantities, please contact:
+
+📧 **SmartBuildsKits@gmail.com**
+
+Assembled modules are intended for hobbyists, educators, prototypes, and small-scale projects. Availability depends on component stock and production capacity.
 
 ---
 
