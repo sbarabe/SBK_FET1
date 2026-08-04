@@ -121,10 +121,31 @@ Assembled modules are intended for hobbyists, educators, prototypes, and small-s
 
 ---
 
+## Contributing
+
+Suggestions, bug reports, and improvements are welcome.
+
+To report a problem or suggest an improvement, open an Issue. Pull Requests are also welcome for corrections, documentation improvements, and design changes that make the project easier to understand or build.
+
+---
+
+## Support the Project
+
+If this project is useful for learning, teaching, or prototyping, you can support its continued development.
+
+Donations help fund prototype hardware, documentation, educational resources, and future open-source projects.
+
+❤️ [**Support the project through PayPal**](https://paypal.me/sbarab?country.x=CA&locale.x=fr_CA)
+
+Thank you for supporting open-source educational hardware.
+
+---
+
 ## Related Projects
 
 - [**SBK_NFET1**](SBK_NFET1) — N-Channel MOSFET Module
 - [**SBK_PFET1**](SBK_PFET1) — P-Channel MOSFET Module
+- [**SBK_SP1**](https://github.com/sbarabe/SBK_SP1) — Soft Power Switch Module
 - [**SBK_RP1**](https://github.com/sbarabe/SBK_RP1) — Reverse Polarity Protection Module
 - [**MémoBot**](https://github.com/sbarabe/MemoBot) — Educational memory game using SBK hardware modules
 
