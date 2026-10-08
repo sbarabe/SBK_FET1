@@ -1380,7 +1380,7 @@
 			(uuid "579c5876-f9a7-4b26-8ece-628f360618f5")
 		)
 		(instances
-			(project "SBK_PFET1"
+			(project "SBK_PFET1_v1_0"
 				(path "/9f488a9d-c0ac-43bb-9247-02275b443fcc"
 					(reference "D1")
 					(unit 1)
@@ -1569,7 +1569,7 @@
 			(uuid "a57b6b5b-2dc2-44e1-ad6d-adea4905f285")
 		)
 		(instances
-			(project "SBK_PFET1"
+			(project "SBK_PFET1_v1_0"
 				(path "/9f488a9d-c0ac-43bb-9247-02275b443fcc"
 					(reference "R2")
 					(unit 1)
@@ -1647,7 +1647,7 @@
 			(uuid "66d98010-e65b-4dff-8a78-56757d23dc57")
 		)
 		(instances
-			(project "SBK_PFET1"
+			(project "SBK_PFET1_v1_0"
 				(path "/9f488a9d-c0ac-43bb-9247-02275b443fcc"
 					(reference "#PWR01")
 					(unit 1)
@@ -1757,7 +1757,7 @@
 			(uuid "2499a06d-ec6e-4802-bdf5-9c9048dca957")
 		)
 		(instances
-			(project "SBK_PFET1"
+			(project "SBK_PFET1_v1_0"
 				(path "/9f488a9d-c0ac-43bb-9247-02275b443fcc"
 					(reference "Q1")
 					(unit 1)
@@ -1945,7 +1945,7 @@
 			(uuid "e0111351-faf3-48d9-ab08-4e8b61807401")
 		)
 		(instances
-			(project "SBK_PFET1"
+			(project "SBK_PFET1_v1_0"
 				(path "/9f488a9d-c0ac-43bb-9247-02275b443fcc"
 					(reference "J1")
 					(unit 1)
