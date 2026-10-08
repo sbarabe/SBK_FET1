@@ -771,7 +771,7 @@
     "top_level_sheets": [
       {
         "filename": "SBK_NFET1.kicad_sch",
-        "name": "Racine",
+        "name": "SBK_NFET1",
         "uuid": "9f488a9d-c0ac-43bb-9247-02275b443fcc"
       }
     ],
